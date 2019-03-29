@@ -6,7 +6,6 @@ import Content from './components/Content/Content';
 const App = () => {
   return (
     <div className="App">
-    <h1>Hello</h1>
       <TopBar />
       <Header />
       <Content />
