@@ -31,9 +31,9 @@ export default class Content extends Component {
 
   filterCards = () => {
     if(this.state.selected ==='all'){
-      return 'all'
+      return this.state.cards
     }else{
-      return this.setState.filter(card=> card.tab === this.state.selected)
+      return this.state.filter(card=> card.tab === this.state.selected)
     }
   }
   render() {
